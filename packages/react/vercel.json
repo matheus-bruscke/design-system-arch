@@ -1,7 +1,6 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
-  "buildCommand": "bun run build-storybook",
-  "devCommand": "bun run serve-storybook",
+  "buildCommand": "turbo run build --filter=@repo/react",
   "installCommand": "bun install",
   "framework": null,
   "outputDirectory": "./storybook-static"
