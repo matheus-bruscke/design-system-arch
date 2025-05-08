@@ -4,12 +4,12 @@
   "main": "src/index.ts",
   "types": "src/index.ts",
   "dependencies": {
-    "@repo/design": "workspace:*",
+    "@repo/design": "*",
     "react": "^19.1.0",
     "react-dom": "^19.1.0"
   },
   "devDependencies": {
-    "@repo/typescript-config": "workspace:*",
+    "@repo/typescript-config": "*",
     "@storybook/addon-essentials": "^8.6.12",
     "@storybook/addon-interactions": "^8.6.12",
     "@storybook/addon-onboarding": "^8.6.12",
