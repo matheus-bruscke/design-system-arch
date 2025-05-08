@@ -1,0 +1,34 @@
+{
+  "name": "@repo/react",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "dependencies": {
+    "@repo/design": "workspace:*",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@repo/typescript-config": "workspace:*",
+    "@storybook/addon-essentials": "^8.6.12",
+    "@storybook/addon-interactions": "^8.6.12",
+    "@storybook/addon-onboarding": "^8.6.12",
+    "@storybook/blocks": "^8.6.12",
+    "@storybook/react": "^8.6.12",
+    "@storybook/react-vite": "^8.6.12",
+    "@storybook/test": "^8.6.12",
+    "@tailwindcss/vite": "^4.1.5",
+    "@types/react": "^19.1.3",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "storybook": "^8.6.12",
+    "tailwind-merge": "^3.2.0",
+    "tailwindcss": "^4.1.5",
+    "typescript": "^5.8.3"
+  },
+  "scripts": {
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build",
+    "dev": "storybook dev -p 6006"
+  }
+}

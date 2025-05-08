@@ -1,0 +1,6 @@
+@import "tailwindcss";
+@config "./../../tailwind.config.mjs";
+
+body {
+  font-family: var(--font-body), Arial, Helvetica, sans-serif;
+}

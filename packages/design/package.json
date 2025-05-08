@@ -1,0 +1,19 @@
+{
+  "name": "@repo/design",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "dependencies": {},
+  "scripts": {
+    "dev": "rollup -c -w",
+    "build": "rollup -c"
+  },
+  "devDependencies": {
+    "@rollup/plugin-json": "^6.1.0",
+    "@rollup/plugin-typescript": "^12.1.2",
+    "@types/node": "^22.15.14",
+    "rollup": "^4.40.2",
+    "typescript": "^5.8.3"
+  }
+}
