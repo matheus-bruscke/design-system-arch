@@ -1,4 +1,3 @@
-import GoogleLogo from "@repo/assets/src/icons/google.svg";
 import XLogo from "@repo/assets/src/icons/logo.svg";
 import { Button } from "@repo/react";
 import Image from "next/image";
@@ -18,8 +17,7 @@ export default function Home() {
         <p className="text-sm text-ds-text-secondary">Join today.</p>
       </div>
       <Button variant="primary" size="lg">
-        <Image src={GoogleLogo} alt="Google Logo" width={24} height={24} />
-        Sign in with Google
+        Login
       </Button>
     </main>
   );

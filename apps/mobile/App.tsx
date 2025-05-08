@@ -32,8 +32,7 @@ export default function App() {
           <Text style={styles.subheading}>Join Today</Text>
         </View>
         <TouchableOpacity style={styles.button}>
-          <Image source={images.google} style={styles.googleIcon} />
-          <Text style={styles.buttonText}>Login with Google</Text>
+          <Text style={styles.buttonText}>Login</Text>
         </TouchableOpacity>
       </View>
       <StatusBar style="auto" />
@@ -77,7 +76,6 @@ const styles = StyleSheet.create({
     gap: 8,
     backgroundColor: color["ds-primary"],
     borderRadius: 100,
-    paddingVertical: 16,
     height: 48,
     paddingHorizontal: 24,
   },
